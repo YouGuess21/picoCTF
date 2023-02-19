@@ -108,7 +108,7 @@ int main ()
 }
 ```
 
-We run this program on the server in order to match the times.
+We run this program on the server in order to match the times and pipe the output of program into the program running on server.
 
 ```terminal
 youguess@youguess-Inspiron-14-5410-2-in-1:~$ ./solve | nc jupiter.challenges.picoctf.org 8311
