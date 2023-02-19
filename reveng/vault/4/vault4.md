@@ -10,6 +10,14 @@ We again get a source code with a checkPassword() that looks like this
 
 We see that instead of text ascii and hexadecimal values are used, so if I just print it in compiler I will get the password
 
-![3](https://user-images.githubusercontent.com/125740625/219931843-f6370314-3b30-4e0c-a310-1c2edc473cc9.png)
-
+```
+int i;
+	char a[100]={106 , 85  , 53  , 116 , 95  , 52  , 95  , 98  ,
+            0x55, 0x6e, 0x43, 0x68, 0x5f, 0x30, 0x66, 0x5f,
+            0142, 0131, 0164, 063 , 0163, 0137, 0143, 061 ,
+            '9' , '4' , 'f' , '7' , '4' , '5' , '8' , 'e'};
+	for(i=0; i<32; i++)
+  	printf("%c", a[i]);
+	
+```
 Required flag : picoCTF{jU5t_4_bUnCh_0f_bYt3s_c194f7458e}
