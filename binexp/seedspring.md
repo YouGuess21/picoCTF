@@ -1,4 +1,8 @@
+# Description
+
 ![Screenshot from 2023-02-19 11-04-17](https://user-images.githubusercontent.com/115702866/219928048-b9d25fe6-c847-4df9-a43e-0359055f373b.png)
+
+# Solution
 
 First I ran the program using the given command in my terminal.
 ```terminal
