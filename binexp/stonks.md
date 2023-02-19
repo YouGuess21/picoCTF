@@ -223,8 +223,8 @@ Stonks chosen
 What is your API token?
 %x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x 
 Buying stonks with token:
-989e450804b00080489c3f7f75d80ffffffff1989c160f7f83110f7f75dc70989d1801989e430989e4506f6369707b465443306c5f49345f74356d5f6c6c306d5f795f79336e6334326136613431ffe1007d
-Portfolio as of Sun Feb 19 07:44:51 UTC 2023
+9b12390804b00080489c3f7ee4d80ffffffff19b10160f7ef2110f7ee4dc709b1118019b123709b123906f6369707b465443306c5f49345f74356d5f6c6c306d5f795f79336e6263376365616336fff6007d
+Portfolio as of Sun Feb 19 13:27:06 UTC 2023
 
 
 1 shares of THT
@@ -240,6 +240,7 @@ Portfolio as of Sun Feb 19 07:44:51 UTC 2023
 1478 shares of KIR
 Goodbye!
 ```
-Converting this hexadecimal to ASCII we get text that vaguely resembles the flag. I realised that the bytes are not in the right order as we extracted them from a stack in the top down uproach. After rearranging them in the right order the obtained flag was picoCTF{I_l05t_4ll_my_m0n3y_a24c14a6}
+Converting this hexadecimal to ASCII we get text that vaguely resembles the flag. I realised that the bytes are not in the right order as we extracted them from a stack in the top down uproach. After rearranging them in the right order the obtained flag was
+Required flag: picoCTF{I_l05t_4ll_my_m0n3y_c7cb6cae}
 
 
