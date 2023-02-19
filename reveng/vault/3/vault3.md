@@ -11,7 +11,24 @@ We again get a source code with a checkPassword() that looks like this
 Here, password is scrambled with some for loops and at end checked with "jU5t_a_sna_3lpm18gb41_u_4_mfr340" string.
 So I just wrote a reverse script
 
-![vault33](https://user-images.githubusercontent.com/125740625/219931302-1cbfbbab-6eac-4732-b8b8-75c96bb425a3.png)
+```
+char a[33]={"jU5t_a_sna_3lpm18gb41_u_4_mfr340"}, b[33];
+	int i;
+	for(i=0; i<8; i++) 
+            b[i] = a[i];
+        
+        for(; i<16; i++) 
+            b[i] = a[23-i];
+        
+        for(; i<32; i+=2) 
+            b[i] = a[46-i];
+        
+        for(i=31; i>=17; i-=2) 
+            b[i] = a[i];
+        
+	for(i=0; i<33; i++)
+		printf("%c", b[i]);
+```
 
 Required flag : picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_1fb380}
 
