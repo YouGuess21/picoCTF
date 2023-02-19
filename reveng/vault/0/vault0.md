@@ -1,6 +1,8 @@
-#Description
+# Description
+
 ![vault0](https://user-images.githubusercontent.com/125740625/219922315-1cfa9fff-02a8-4689-aa7e-f644cd181e8d.png)
 
+# Solution
 I saw they have provided us with a source code of a java file and password is just revealed in it.
 I downloaded file using wget and just cat it.
 
